@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+
+<body>
+   
+    <h3>Cadastro da liga dos astronautas</h3>
+    
+    <form action="" autocomplete="on">
+        <div>
+            <label for="Name">Nome:</label>
+            <input type="name" id="name" name="name" placeholder="Nome completo" required>
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="astronauta@email.com" required>
+
+            <label for="Password"> - Password:</label>
+            <input type="password" id="password" name="password" placeholder="Crie sua senha" required>
+        </div>
+        <br>
+        <div>
+            <label for="birthDate">Data de nascimento:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+        <label for="photo"> - Foto:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required> <!--o accept serve p/ especificar o tipo de arquivo que pode ser selecionado pelo usuário--> 
+        </div>
+        <br>
+        <div>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="nationality" id="nationality" >
+            <option value="brazilian">Brasileira</option>
+            <option value="american">Americana</option>
+            <option value="russian">Russa</option>
+        </select>
+
+        <label for="gender"> - Gênero:</label>
+        <label for="female"> F </label >
+        <input type="radio" id="female" value="female" name="gender" required>
+        <label for="male"> M </label>
+        <input type="radio" id="male" value="male" name="gender" required>
+        <br><br>
+        </div>
+
+        <label for="skills"> Suas principais qualidades:</label>
+        <br> 
+        <label for="checkbox"> Inteligência: </label>
+        <input type="checkbox" id="intelligence" value="intelligence" name="skills">     
+        <label for="checkbox"> | Resiliência: </label>
+        <input type="checkbox" id="resilience" value="resilience" name="skills">   
+        <label for="checkbox"> | Preparo físico: </label>
+        <input type="checkbox" id="endurance" value="endurance" name="skills">  
+        <label for="checkbox"> | Educação: </label>
+        <input type="checkbox" id="education" value="education" name="skills">  
+        <label for="skills">|</label> <!--Esse label foi criado sem input, pois serviu apenas para tagear o |, não é uma boa prática deixar caractere solto no meio do código-->
+        <br><br>
+
+        <label for="textarea"> </label>
+            <textarea id="textarea" name="textarea" rows="15" cols="33" placeholder="Por que você gostaria de ser um astronauta?" required></textarea>
+
+        <br><br>
+        <input type="submit" value="Criar">
+
+    </form>
+</body>
+</html>
