@@ -4,7 +4,7 @@ Descrição do projeto aqui
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **NLW eSports (Front-end)**
+| ![image](https://user-images.githubusercontent.com/105811729/224181652-3e3c54d8-3b3c-4832-92a0-f8b2ebd50a31.png): Nome        | **NLW eSports (Front-end)**
 | :label: Tecnologias | React, Typescript, Vite, Tailwind, Radix
 | :rocket: URL         | -
 | :fire: Desafio     | NLW eSports (trilha Ignite)
